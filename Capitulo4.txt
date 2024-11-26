@@ -1,0 +1,26 @@
+
+Capítulo 4: Consejos y Buenas Prácticas en Git
+
+1. Escribe mensajes de commit claros
+Cada mensaje debe explicar qué se cambió y por qué. Ejemplo:
+```bash
+git commit -m "Corrige error en función de cálculo de promedios"
+```
+
+2. Realiza commits pequeños y frecuentes
+Evita cambios grandes en un solo commit. Los commits pequeños son más fáciles de revisar.
+
+3. Usa ramas para desarrollar funcionalidades
+Trabajar en una rama separada evita problemas en la rama principal.
+
+4. Verifica tus cambios antes de confirmar
+Usa `git status` para asegurarte de que los archivos correctos están en el área de preparación.
+
+5. Practica con proyectos pequeños
+Antes de usar Git en proyectos críticos, practica en un proyecto personal.
+
+6. Revisa el historial con regularidad
+```bash
+git log
+```
+Te permite entender los cambios realizados y por quién.

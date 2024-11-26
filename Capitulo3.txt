@@ -1,0 +1,32 @@
+
+Capítulo 3: Trabajo con Ramas en Git
+
+Las ramas permiten desarrollar nuevas funcionalidades sin alterar la rama principal. Esto facilita el trabajo colaborativo.
+
+1. Crear una nueva rama
+```bash
+git branch <nombre-rama>
+```
+Este comando crea una rama nueva sin cambiar a ella.
+
+2. Cambiar de rama
+```bash
+git checkout <nombre-rama>
+```
+
+3. Crear y cambiar a una nueva rama simultáneamente
+```bash
+git checkout -b <nombre-rama>
+```
+
+4. Combinar ramas (merge)
+```bash
+git merge <nombre-rama>
+```
+Combina los cambios de una rama específica con la rama actual.
+
+5. Eliminar una rama
+```bash
+git branch -d <nombre-rama>
+```
+Solo se puede eliminar una rama cuando sus cambios ya han sido fusionados.
