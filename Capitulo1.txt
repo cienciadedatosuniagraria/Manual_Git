@@ -1,0 +1,25 @@
+
+Capítulo 1: Introducción a Git
+
+¿Qué es Git?
+Git es un sistema de control de versiones distribuido que permite a múltiples usuarios trabajar en un proyecto simultáneamente sin conflictos.
+
+Características clave:
+- Controla versiones: Mantiene un registro de todos los cambios realizados en los archivos de un proyecto.
+- Distribuido: Cada usuario tiene una copia completa del repositorio.
+- Colaboración: Facilita el trabajo en equipo con repositorios locales y remotos.
+
+¿Por qué usar Git?
+- Puedes deshacer cambios en caso de errores.
+- Permite trabajar en diferentes funcionalidades usando ramas.
+- Historial detallado de cada cambio realizado.
+
+Instalación:
+- Visita [https://git-scm.com/](https://git-scm.com/) para descargar Git y sigue las instrucciones según tu sistema operativo.
+
+Configuración inicial:
+Antes de empezar a usar Git, configura tu identidad:
+```bash
+git config --global user.name "Tu Nombre"
+git config --global user.email "tu.email@example.com"
+```
