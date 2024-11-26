@@ -1,0 +1,37 @@
+
+Capítulo 2: Comandos Básicos de Git
+
+Estos son los comandos esenciales para comenzar a trabajar con Git.
+
+1. Inicializar un repositorio
+```bash
+git init
+```
+Este comando crea un nuevo repositorio en la carpeta actual.
+
+2. Ver el estado del repositorio
+```bash
+git status
+```
+Muestra los cambios realizados y el estado de los archivos en el área de trabajo.
+
+3. Añadir archivos al área de preparación (staging)
+```bash
+git add <archivo>
+```
+Para añadir todos los archivos, usa:
+```bash
+git add .
+```
+
+4. Confirmar cambios (commit)
+```bash
+git commit -m "Descripción del cambio"
+```
+Cada commit debe tener un mensaje claro que explique los cambios realizados.
+
+5. Ver historial de commits
+```bash
+git log
+```
+Incluye detalles de cada commit: autor, fecha y mensaje.
